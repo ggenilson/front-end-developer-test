@@ -1,0 +1,21 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav .nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+nav .nav-items li a {
+  font-weight: 500;
+  color: #000;
+  font-size: 14px;
+  line-height: 16.44px;
+  text-align: center;
+}

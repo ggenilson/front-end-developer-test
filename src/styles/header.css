@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 0 0 20px;
+  height: 65.9px;
 }
 
 .wrap-container header .find-store {
@@ -57,4 +58,12 @@ header .right-header .search-header {
   border-radius: 50%;
   background-color: #f2f2f2;
   cursor: pointer;
+}
+
+.wrap-container .img-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30.44px;
 }
