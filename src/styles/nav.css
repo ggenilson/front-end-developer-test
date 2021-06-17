@@ -3,6 +3,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #dadada;
 }
 
 nav .nav-items {
@@ -18,4 +20,5 @@ nav .nav-items li a {
   font-size: 14px;
   line-height: 16.44px;
   text-align: center;
+  cursor: pointer;
 }
