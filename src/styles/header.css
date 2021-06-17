@@ -1,0 +1,10 @@
+.wrap-container header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrap-container header .find-store {
+  display: flex;
+  justify-content: space-between;
+}
