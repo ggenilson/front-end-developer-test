@@ -35,12 +35,17 @@
   white-space: pre-wrap;
 }
 
-.section2 .left-section-explore {
+.left-section-explore {
   display: flex;
   align-items: center;
 }
 
-.section2 .left-section-explore .btn-explore {
+.left-section-explore span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.left-section-explore .btn-explore {
   display: flex;
   align-items: center;
   justify-content: center;
