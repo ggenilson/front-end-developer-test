@@ -1,5 +1,11 @@
 :root {
   --color-primary: #d5a368;
+  --padding: 20px 0 0 20px;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('../assets/fonts/Raleway-VariableFont_wght.ttf');
 }
 
 * {
@@ -9,4 +15,12 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrap-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
 }

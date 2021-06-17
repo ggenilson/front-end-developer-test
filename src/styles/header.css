@@ -2,9 +2,59 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 20px 0 0 20px;
 }
 
 .wrap-container header .find-store {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  border: 1px solid #dbdbdb;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.wrap-container header .find-store img {
+  margin-left: 20px;
+}
+
+.wrap-container header .find-store span {
+  font-size: 13px;
+  line-height: 15.26px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+header .right-header {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+header .right-header .icons-header {
+  display: flex;
+  align-items: center;
+}
+
+header .right-header .icons-header > * {
+  cursor: pointer;
+}
+
+header .right-header .icons-header > *:not(:last-child) {
+  margin-right: 25px;
+}
+
+header .right-header .search-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  cursor: pointer;
 }
