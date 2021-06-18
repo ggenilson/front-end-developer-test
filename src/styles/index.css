@@ -8,11 +8,6 @@
   src: url('../assets/fonts/raleway/Raleway-VariableFont_wght.ttf');
 }
 
-@font-face {
-  font-family: 'PlayfairDisplay';
-  src: url('../assets/fonts/playfairDisplay/PlayfairDisplay-VariableFont_wght.ttf');
-}
-
 * {
   margin: 0;
   padding: 0;
