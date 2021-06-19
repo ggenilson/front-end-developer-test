@@ -59,6 +59,10 @@
   /* background-color: red; */
 }
 
+.right-section5 img:first-child {
+  opacity: 0.4;
+}
+
 .section5 .top-section5 .right-section5 .btn-explore {
   align-self: center;
   justify-self: center;
@@ -132,4 +136,13 @@
   border-radius: 50%;
   cursor: pointer;
   left: 20px;
+}
+
+.section5 .carousel-images-section5-footer {
+}
+
+.section5 .carousel-images-section5-footer span {
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
 }
