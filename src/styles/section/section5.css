@@ -5,6 +5,7 @@
   padding-top: 10px;
 }
 
+/* Top Section5 */
 .section5 .top-section5 {
   display: flex;
   min-height: 450px;
@@ -55,6 +56,7 @@
   width: 30%;
   position: relative;
   display: flex;
+  /* background-color: red; */
 }
 
 .section5 .top-section5 .right-section5 .btn-explore {
@@ -75,4 +77,59 @@
 
 .section5 .top-section5 > * {
   margin-left: 10px;
+}
+
+/* Down Section5 */
+.down-section5 {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+}
+
+.down-section5 .title-down-section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.down-section5 .title-down-section5 > *:first-child {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.down-section5 .title-down-section5 > *:last-child {
+  font-size: 80px;
+  color: #472138;
+  font-weight: 700;
+}
+
+.down-section5 .carousel-rings-section5 {
+  display: flex;
+  width: 100%;
+}
+
+.down-section5 .carousel-rings-section5 {
+  display: flex;
+  width: 100%;
+}
+
+.down-section5 .carousel-rings-section5 .carousel-image img {
+  width: 100%;
+}
+
+.click-carousel-rings {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  left: 20px;
 }
