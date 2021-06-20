@@ -13,6 +13,11 @@
   src: url('../assets/fonts/playfairDisplay/PlayfairDisplay-VariableFont_wght.ttf');
 }
 
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../assets/fonts/openSans/OpenSans-Regular.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
