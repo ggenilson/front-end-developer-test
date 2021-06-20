@@ -27,12 +27,12 @@
 .section2 .left-section2-description {
   display: flex;
   justify-content: flex-start;
+  width: 500px;
 }
 
 .section2 .left-section2-description span {
   font-weight: 400;
   font-size: 18px;
-  white-space: pre-wrap;
 }
 
 .left-section-explore {

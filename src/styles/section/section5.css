@@ -48,6 +48,7 @@
 .section5 .top-section5 .left-section5-description > :nth-child(2) {
   font-weight: 700;
   font-size: 96px;
+  font-family: 'PlayfairDisplay', sans-serif;
 }
 
 /* Right */
@@ -61,6 +62,7 @@
 
 .right-section5 img:first-child {
   opacity: 0.4;
+  width: 100%;
 }
 
 .section5 .top-section5 .right-section5 .btn-explore {
@@ -109,6 +111,7 @@
   font-size: 80px;
   color: #472138;
   font-weight: 700;
+  font-family: 'PlayfairDisplay', sans-serif;
 }
 
 .down-section5 .carousel-rings-section5 {
@@ -139,6 +142,8 @@
 }
 
 .section5 .carousel-images-section5-footer {
+  align-self: center;
+  padding-bottom: 20px;
 }
 
 .section5 .carousel-images-section5-footer span {
