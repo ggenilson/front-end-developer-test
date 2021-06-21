@@ -60,7 +60,7 @@
   /* background-color: red; */
 }
 
-.right-section5 img:first-child {
+.right-section5 > img:first-child {
   opacity: 0.4;
   width: 100%;
 }
