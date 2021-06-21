@@ -83,7 +83,7 @@
 
 .footer > .footer-footer > *:nth-child(1) .list-links .list-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
@@ -111,7 +111,7 @@
   border: 1px solid #767676;
   background-color: transparent;
   color: #f2f2f2;
-  width: 278px;
+  width: 200px;
   height: 45px;
   cursor: pointer;
   font-family: 'OpenSans', sans-serif;
@@ -228,12 +228,13 @@
 }
 
 .footer > .footer-footer > *:nth-child(3) > *:nth-child(2) {
-  width: 299px;
+  width: 300px;
 }
 
 .footer > .footer-footer > *:nth-child(3) > *:nth-child(2) > .support {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .footer > .footer-footer > *:nth-child(3) > *:nth-child(2) > .support > img {
@@ -245,6 +246,16 @@
   justify-content: space-between;
   width: 120px;
   margin-top: 18px;
+}
+
+.footer
+  > .footer-footer
+  > *:nth-child(3)
+  > *:nth-child(2)
+  > .support
+  > div
+  > *:not(:last-child) {
+  margin-right: 20px;
 }
 
 .footer > .footer-footer > *:nth-child(3) .payment-methods > div {
@@ -259,6 +270,7 @@
   width: 100%;
   background-color: rgb(66, 63, 63);
   display: flex;
+  justify-content: center;
   /* justify-content: center; */
 }
 
