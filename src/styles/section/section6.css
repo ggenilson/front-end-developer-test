@@ -1,0 +1,60 @@
+.section6 {
+  background-color: #d5a368;
+  width: 100%;
+  position: relative;
+}
+
+.section6 .left-element {
+  display: flex;
+  flex-direction: column;
+  padding: 150px 150px 50px 200px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.section6 .sub-image {
+  position: absolute;
+  top: 75px;
+  left: 465px;
+}
+
+.section6 .sub-image img {
+  width: 850px;
+  height: 600px;
+}
+
+.section6 .left-element .left-section-explore .btn-explore {
+  border: 1px solid #000;
+}
+
+.section6 .left-element .left-section-explore {
+  margin: 50px 0px;
+}
+
+.section6 .left-element span.left-section6-title {
+  font-size: 80px;
+  margin-bottom: 40px;
+  z-index: 1;
+  font-family: 'PlayfairDisplay', sans-serif;
+}
+
+.section6 .left-element div.collections-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.section6 .left-element div.collections-list > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.section6 .left-element div.collections-list > * {
+  font-size: 24px;
+}
+
+.section6 .left-element div span:nth-child(2) {
+  color: #8d6638;
+}
+
+.section6 .left-section-explore span {
+  font-size: 14px;
+}
