@@ -14,6 +14,7 @@
 }
 
 .section4 .right-section4 {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -44,4 +45,30 @@
 
 .section4 .left-section-explore {
   color: #fff;
+}
+
+/* Responsividade */
+
+@media (max-width: 600px) {
+  .section4 {
+    flex-direction: column;
+    height: 918.86px;
+  }
+
+  .section4 .left-section4,
+  .section4 .right-section4 {
+    width: 100%;
+  }
+
+  .section4 .right-section4 {
+    padding: 20px 20px 20px 70px;
+  }
+
+  .section4 .right-title {
+    font-size: 42px;
+  }
+
+  .section4 .right-description span {
+    font-size: 16px;
+  }
 }
