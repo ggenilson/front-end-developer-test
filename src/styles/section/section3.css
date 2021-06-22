@@ -32,3 +32,20 @@
   font-size: 18px;
   font-weight: 400;
 }
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .section3 .section3-title {
+    font-size: 18px;
+  }
+
+  .section3 .section3-strong-text {
+    font-size: 42px;
+  }
+
+  .section3 .section3-description {
+    font-size: 16px;
+    width: 274px;
+    text-align: center;
+  }
+}
