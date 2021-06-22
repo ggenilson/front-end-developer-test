@@ -2,8 +2,10 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px 0 0 20px;
-  height: 65.9px;
+  align-items: center;
+  min-height: 66.9px;
+  padding-left: 20px;
+  margin-bottom: 20px;
 }
 
 .wrap-container header .find-store {
@@ -29,16 +31,15 @@
 }
 
 header .right-header {
-  width: 15%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   margin-right: 20px;
 }
 
 header .right-header .icons-header {
   display: flex;
   align-items: center;
+  margin-right: 40px;
 }
 
 header .right-header .icons-header > * {
@@ -66,4 +67,29 @@ header .right-header .search-header {
   align-items: center;
   justify-content: center;
   padding-bottom: 30.44px;
+}
+
+/*  */
+.logo-mobile {
+  align-items: center;
+  cursor: pointer;
+  display: none;
+}
+
+.logo-mobile > *:not(:last-child) {
+  margin-right: 10px;
+}
+
+/* Trabalhando na responsividade */
+@media (max-width: 600px) {
+  .logo-mobile {
+    display: flex;
+  }
+
+  .wrap-container header .find-store,
+  .wrap-container .img-title,
+  .wrap-container header .right-header .icons-header > *:not(:last-child),
+  .menus-link {
+    display: none;
+  }
 }

@@ -67,3 +67,27 @@
 .section1 .right-section img {
   width: 100%;
 }
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .section1 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section1 .left-section-pagination {
+    flex-direction: row;
+    transform: rotate(0);
+    padding: 15px;
+  }
+
+  .section1 .left-section-pagination > div > span {
+    transform: rotate(0) !important;
+  }
+
+  .vertical-line,
+  .vertical-text {
+    display: none;
+  }
+}
