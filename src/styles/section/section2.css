@@ -63,3 +63,29 @@
   width: 450px;
   height: 100%;
 }
+
+/* Responsividade */
+
+@media (max-width: 600px) {
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section2 .left-section2 {
+    padding: 20px 20px 20px 80px;
+  }
+
+  .section2 .left-section2 .left-section2-title {
+    font-size: 42px;
+  }
+
+  .section2 .left-section2-description {
+    width: 300px;
+  }
+
+  .section2 .right-section2 > img {
+    width: 100%;
+  }
+}
