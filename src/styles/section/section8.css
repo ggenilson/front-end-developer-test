@@ -1,0 +1,79 @@
+.section8 {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section8 .events-left-element {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.section8 .events-left-element span:nth-child(1) {
+  font-size: 20px;
+}
+
+.section8 .events-left-element span:nth-child(2) {
+  font-size: 80px;
+  color: #d5a368;
+  font-family: 'PlayfairDisplay', sans-serif;
+}
+
+.section8 .events_right-element {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.section8 .events_right-element .other {
+  display: flex;
+  flex-direction: row;
+  justify-content: safe;
+  align-items: center;
+}
+
+.section8 .events_right-element > div.other {
+  border-top: 2px solid #d4d4d4;
+}
+
+.section8 .events_right-element > div.other:last-child {
+  border-bottom: 2px solid #d4d4d4;
+}
+
+.section8 .events_right-element .other .other-left {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 20px 0px;
+}
+
+.section8 .events_right-element .other .other-left :nth-child(1) {
+  font-size: 20px;
+  padding-right: 120px;
+}
+
+.section8 .events_right-element .other .other-left :nth-child(2) {
+  font-size: 48px;
+  color: #d5a368;
+  font-family: 'PlayfairDisplay', sans-serif;
+}
+
+.section8 .events_right-element .other .other-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.section8 .events_right-element .other .other-right :nth-child(1) {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.section8 .events_right-element .other .other-right :nth-child(2) {
+  font-size: 20px;
+  color: #666666;
+}
+
+.section8 .events_right-element .other .other-right :nth-child(2).p {
+  width: 60%;
+}
