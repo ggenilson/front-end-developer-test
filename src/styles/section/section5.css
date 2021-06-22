@@ -120,11 +120,6 @@
   width: 100%;
 }
 
-.down-section5 .carousel-rings-section5 {
-  display: flex;
-  width: 100%;
-}
-
 .down-section5 .carousel-rings-section5 .carousel-image img {
   width: 100%;
 }
@@ -151,4 +146,57 @@
   font-weight: 300;
   font-size: 24px;
   text-align: center;
+}
+
+/* Responsisvidade */
+
+@media (max-width: 600px) {
+  .section5 .top-section5 {
+    min-height: 300px;
+  }
+
+  .section5 .top-section5 .left-section5 {
+    width: 90%;
+  }
+
+  .section5 .top-section5 .right-section5 {
+    width: 10%;
+  }
+
+  .section5 .top-section5 .right-section5 .btn-explore {
+    display: none;
+  }
+
+  .section5 .top-section5 .right-section5 > img:first-child {
+    opacity: 1;
+  }
+
+  .section5 .top-section5 .left-section5-description > :nth-child(1) {
+    font-size: 18px;
+  }
+
+  .section5 .top-section5 .left-section5-description > :nth-child(2) {
+    font-size: 60px;
+  }
+
+  /*  */
+
+  .down-section5 {
+    position: relative;
+  }
+
+  .down-section5 .title-down-section5 > *:first-child {
+    font-size: 18px;
+  }
+
+  .down-section5 .title-down-section5 > *:last-child {
+    font-size: 42px;
+    width: 216px;
+    text-align: center;
+  }
+
+  .down-section5 .carousel-rings-section5 > *:first-child,
+  .down-section5 .carousel-rings-section5 > *:last-child {
+    display: none;
+  }
 }
