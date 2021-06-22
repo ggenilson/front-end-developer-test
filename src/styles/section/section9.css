@@ -1,0 +1,61 @@
+.section9 {
+  padding-top: 100px;
+  margin-top: 150px;
+  background-color: #f2f2f2;
+  width: 100%;
+  padding-bottom: 90px;
+}
+
+.section9 .instagram {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.section9 .instagram .title span {
+  color: #472138;
+  font-size: 80px;
+}
+
+.section9 .instagram {
+  font-size: 36px;
+  font-family: 'PlayfairDisplay', sans-serif;
+}
+
+.section9 .carousel {
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+.section9 .carousel > * {
+  margin-right: 10px;
+}
+
+.section9 .carousel > img[active='true'] {
+  position: relative;
+  width: 340px;
+  height: 340px;
+  border: 4px solid #fff;
+  /* top: -200px; */
+  margin-bottom: 20px;
+  margin-top: -20px;
+  z-index: 10;
+}
+
+.section9 .carousel img {
+  width: 250px;
+  height: 250px;
+}
+
+.section9 .carousel :nth-child(1) {
+  margin-left: -300px;
+}
+
+.section9 .carousel :nth-child(7) {
+  margin-right: -300px;
+}
